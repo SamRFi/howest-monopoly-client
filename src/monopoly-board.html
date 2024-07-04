@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monopoly</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/screen.css">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/screen.css">
+
+    <script src="assets/js/config.js"></script>
+
+    <script src="assets/js/data-connector/error-handler.js"></script>
+    <script src="assets/js/data-connector/api-communication-abstractor.js"></script>
+    <script src="assets/js/data-connector/local-storage-abstractor.js"></script>
+
+    <script src="assets/js/initialiser.js"></script>
+
+    <script src="assets/js/ingame-component/initialiser-menu.js"></script>
+    <script src="assets/js/ingame-component/load-player-board.js"></script>
+    <script src="assets/js/ingame-component/helper-functions.js"></script>
+    <script src="assets/js/ingame-component/render-player-board.js"></script>
+
+    <script src="assets/js/dice-roll/dice-roll.js"></script>
+
+    <script src="assets/js/ingame-component/display-player-names.js"></script>
+    <script rel="script" src="assets/js/pop-ups.js"></script>
+    <script src="assets/js/ingame-component/display-player-money.js"></script>
+    <script src="assets/js/ingame-component/player-actions.js"></script>
+    <script src="assets/js/ingame-component/collect-rent.js"></script>
+    <script src="assets/js/ingame-component/bankruptcy.js"></script>
+
+</head>
+    <body>
+        <main class="overview">
+            <!--dummy data-->
+        <div id="options">
+
+            <aside id="buttons">
+                <button>Collect rent</button>
+                <button id="bankrupt">Bankrupt</button>
+                <button class="properties">Properties</button>
+                <button>Build house</button>
+                <p>Player actions:</p>
+                <div class="player-action">
+                <ul>
+                    <li class="first"></li>
+                    <li class="second"></li>
+                </ul>
+                </div>
+            </aside>
+            <div id="playerName">
+            <h1>Player 1</h1>
+            <div id="dice">
+                <p>Roll dice</p>
+            </div>
+            </div>
+            <aside id="players">
+                <h2>$1500</h2>
+                <p>Click on a player to see their info</p>
+                <a href="#"></a><span></span>
+                <a href="#"></a><span></span>
+                <a href="#"></a><span></span>
+                <a href="#"></a><span></span>
+                <a href="#"></a><span></span>
+                <a href="#"></a><span></span>
+            </aside>
+            </div>
+                <div id="next"><img src="./images/arrow-next.png" alt="arrow-next"></div>
+                <div id="previous"><img src="./images/arrow-previous.png" alt="arrow-next"></div>
+                <div id="tiles">
+            </div>
+        </main>
+
+    </body>
+</html>

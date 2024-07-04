@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monopoly</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/screen.css">
+
+    <script src="assets/js/initialiser.js"></script>
+    <script src="assets/js/config.js"></script>
+
+    <script src="assets/js/data-connector/error-handler.js"></script>
+    <script src="assets/js/data-connector/api-communication-abstractor.js"></script>
+    <script src="assets/js/data-connector/local-storage-abstractor.js"></script>
+
+
+    <script src="assets/js/startpage-component/initialiserStart.js"></script>
+    <script src="assets/js/startpage-component/input.js"></script>
+
+</head>
+<body>
+    <main class="startpage">
+
+        <header id="Press-To-Start">
+            <h1>Enter Name</h1>
+        </header>
+
+        <form>
+            <span>username:</span>
+            <input type="text" id="playername" name="playername">
+            <span>amount of players:</span>
+            <select name="amountOfPlayers" id="amountOfPlayers">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+                <input type="submit" id="submitStartForm">
+        </form>
+        <footer>
+            <ul id="Rules">
+                <li><a href="rule-page.html">Game Rules</a></li>
+                <li id="FAQ"><a href="faq-page.html">FAQ</a> </li>
+            </ul>
+        </footer>
+    </main>
+
+</body>
+</html>

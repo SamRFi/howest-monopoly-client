@@ -1,0 +1,1442 @@
+/* CARDSPAGE */
+/* ↓↓↓↓↓↓↓↓↓ */
+
+body.cardsPage{
+    background-image: url("../../images/achtergrond-cards-page.jpg");
+    background-repeat: repeat;
+}
+
+body.cardsPage aside.menu{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+body.cardsPage h2{
+    font-family: halvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+body.cardsPage h2.Titel{
+    margin-left: 10.5rem;
+    font-size: 3.5rem;
+}
+
+body.cardsPage button.goBack {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    border-radius: 0.3rem;
+    width: 9rem;
+    height: 3rem;
+    margin-left: 0.25rem;
+}
+body.cardsPage button.goBack:hover {
+    background-color: black;
+    color: white;
+}
+
+body.cardsPage nav.properties{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+body.cardsPage div{
+    width: 25%;
+    font-size: 1rem;
+    background-color: #ffffff;
+    border: 0.25rem solid black;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 0.5rem 0 -19rem;
+    box-shadow: rgb(0 0 0) 0 -0.45rem 0.4rem -0.4rem;
+}
+
+body.cardsPage section.utilities{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+body.cardsPage div.cards {
+    margin: 3rem auto auto;
+    width: 60%;
+    background-color: #cde6d0;
+    border: 0.25rem solid black;
+    border-radius: 0.5rem;
+    padding: 1rem 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+body.cardsPage div.First_Card{
+    margin-top: 1rem;
+}
+body.cardsPage div.other-cards{
+    width: 25%;
+    height: 18.75rem;
+    padding-bottom: 1rem;
+}
+
+body.cardsPage section.color{
+    display: flex;
+    flex-direction: row;
+}
+body.cardsPage img{
+    margin-top: 0.5rem;
+    max-width: 50%;
+}
+
+body.cardsPage div.card-properties{
+    font-size: 0.5rem;
+    width: 82%;
+    height: 13rem;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem 0.25rem 0 0;
+    border-bottom: none;
+    margin: 0 auto;
+    padding: 0.75rem 0.75rem 0;
+    display: flex;
+    box-shadow: none;
+}
+body.cardsPage div.costs{
+    width: 78.5%;
+    margin: 0 auto 0;
+    padding: 0 1rem 1rem;
+    display: flex;
+    border: 0.15rem black solid;
+    border-radius: 0 0 0.25rem 0.25rem;
+    border-top: none;
+    box-shadow: none;
+}
+body.cardsPage nav.station-info{
+    font-weight: bold;
+    height: 10.15rem;
+    margin: 0;
+    padding: 0.75rem 0.5rem 0;
+    display: flex;
+    border: none;
+    box-shadow: none;
+}
+
+body.cardsPage div.cost{
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    border-top: black 0.1rem solid;
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 10rem;
+    box-shadow: none;
+}
+
+body.cardsPage div.price_each{
+    font-weight: bold;
+    border: none;
+    border-top: black 0.1rem solid;
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 7rem;
+    box-shadow: none;
+}
+
+body.cardsPage div.desc{
+    text-align: left;
+    border: none;
+    border-right: black 0.1rem solid;
+    border-radius: unset;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 10rem;
+    box-shadow: none;
+    height: 8rem;
+}
+
+body.cardsPage div.desc-price{
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 2rem;
+    box-shadow: none;
+    height: 3rem;
+}
+
+body.cardsPage div.price{
+    font-weight: bold;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+    width: 2rem;
+    box-shadow: none;
+    text-align: right;
+}
+
+body.cardsPage div.amount_house{
+    font-weight: bold;
+    border: none;
+    border-radius: unset;
+    border-right: 0.1rem black solid;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+    width: 10rem;
+    box-shadow: none;
+    text-align: right;
+}
+
+
+body.cardsPage div.rent{
+    font-weight: bold;
+    border: none;
+    border-radius: unset;
+    border-right: 0.1rem black solid;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 0.25rem;
+    width: 12rem;
+    box-shadow: none;
+    text-align: left;
+}
+
+body.cardsPage div.utility-card {
+    font-weight: bold;
+    font-size: 0.5rem;
+    width: 82%;
+    height: 16.1rem;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0 auto;
+    padding: 0.75rem 0.75rem 0;
+    box-shadow: none;
+}
+body.cardsPage div.utility-card p{
+    line-height: 1.5rem;
+}
+
+body.cardsPage p{
+    line-height: 2rem;
+    font-family: halvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+body.cardsPage nav.purple{
+    background-color: purple;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 1rem 0;
+}
+
+body.cardsPage nav.lightblue{
+    background-color: lightblue;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 1rem 0;
+}
+
+body.cardsPage nav.violet{
+    background-color: violet;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 1rem 0;
+}
+
+body.cardsPage nav.orange{
+    background-color: orange;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 1rem 0;
+}
+
+body.cardsPage nav.red{
+    background-color: red;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 1rem 0;
+}
+
+body.cardsPage nav.yellow{
+    background-color: yellow;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 1rem 0;
+}
+
+body.cardsPage nav.darkgreen{
+    background-color: darkgreen;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 1rem 0;
+}
+
+body.cardsPage nav.darkblue{
+    background-color: darkblue;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 1rem 0;
+}
+
+body.cardsPage nav.white{
+    background-color: white;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 1rem 0;
+}
+
+body.cardsPage nav.black{
+    color: white;
+    background-color: black;
+    border: 0.15rem black solid;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 1rem 0;
+}
+
+body.cardsPage nav.utility{
+    width: 93%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 0.15rem solid black;
+    border-radius: 0.25rem;
+}
+
+body.cardsPage nav.utility img{
+    width: 40%;
+}
+
+body.cardsPage nav.utility h2{
+    margin-bottom: 1rem;
+    font-family: halvetica, sans-serif;
+}
+body.cardsPage nav.utility p{
+    margin-bottom: 1rem;
+    line-height: 1rem;
+}
+
+body.cardsPage nav.propCard{
+    display: block;
+    font-family: halvetica, sans-serif;
+    font-size: 1rem;
+    width: 25%;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* CARDSPAGE */
+/* ↑↑↑↑↑↑↑↑↑ */
+
+.modal {
+    font-size: 3rem;
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modalthrew {
+    font-size: 3rem;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin: 15% auto;
+    padding: 1rem;
+    border: 0.5rem double #000000;
+    border-radius: 0.5rem;
+    height: 15rem;
+    width: 50%;
+}
+
+.modal-content-threw {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin: 8% auto;
+    padding: 1rem;
+    border: 0.5rem double #000000;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 23%;
+}
+
+.modal-content-jail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 15% auto;
+    padding: 1rem;
+    border: 0.5rem double #000000;
+    border-radius: 0.5rem;
+    height: 6rem;
+    width: 30%;
+}
+
+.modal-content-jail-action nav p:hover {
+    background-color: black;
+    color: white;
+}
+
+.modal-content-threw-double {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin: 7% auto;
+    padding: 1rem;
+    border: 0.5rem double #000000;
+    border-radius: 0.5rem;
+    height: 4rem;
+    width: 40%;
+}
+
+.modal-content-otherTile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 15% auto;
+    padding: 1rem;
+    border: 0.5rem double #000000;
+    border-radius: 0.5rem;
+    height: 15rem;
+    width: 45%;
+}
+
+.modal-content-otherTile p:first-of-type{
+    margin-bottom: 2rem;
+}
+
+.modal-content-jail-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 15% auto;
+    padding: 1rem;
+    border: 0.5rem double #000000;
+    border-radius: 0.5rem;
+    height: 20rem;
+    width: 50%;
+}
+
+.modal-content-jail-action nav p{
+    background-color: rgb(209 209 209);
+    border: 0.25rem black double;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.7rem;
+    margin-top: 1rem;
+}
+
+.modal-content nav {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pTagMid{
+    margin: auto;
+}
+
+.modal-content nav p{
+    background-color: rgb(209 209 209);
+    border: 0.25rem black double;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.7rem;
+}
+
+.modal-content p.pTagMid{
+   margin: auto;
+}
+
+.modal-content nav p:hover {
+    background-color: black;
+    border: 0.25rem white double;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+div#playerName {
+     margin-bottom: 1rem;
+}
+
+.overview h1{
+    box-sizing: content-box;
+    max-width: max-content;
+    font-size: 3rem;
+    border: 0.25rem black solid;
+    margin: 1rem auto 0 auto;
+    text-align: center;
+    padding: 0 0.2rem 0 0.2rem;
+}
+
+#dice {
+    width: 10rem;
+    background-image: url("../../images/dice.jpg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 10%;
+    padding: 3rem;
+    line-height: 12rem;
+    margin: auto auto;
+    font-size: 2rem;
+}
+
+/*options*/
+div#options {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 38.5rem auto 38.5rem;
+    text-align: center;
+}
+
+
+#buttons {
+    display: grid;
+    grid-template-columns: 9.5rem 9.5rem 9.5rem 9.5rem;
+    grid-template-rows: 4rem 2.5rem 4rem;
+    text-align: center;
+}
+
+#buttons p{
+    text-align: right;
+    grid-column: 1/5;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    margin: 1rem auto 0 auto;
+}
+
+#buttons ul li{
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0 1rem;
+    text-align: left;
+    border-bottom: black 0.125rem solid;
+    padding-bottom: 0.2rem;
+}
+
+#buttons ul{
+
+}
+
+#buttons .player-action{
+    grid-column: 1/5;
+}
+
+#buttons button ,.goBack{
+    transition: all 150ms;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    border-radius: 0.3rem;
+    width: 9rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+#buttons button:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: all 250ms;
+}
+
+#players {
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    grid-template-rows: 3rem 2rem 3rem 3rem 3rem 3rem 3rem 3rem;
+    margin-left: 8rem;
+}
+
+#players h2 {
+    grid-column: 1/3;
+    font-size: 3rem;
+}
+
+#players p {
+    grid-column: 1/3;
+}
+
+#players a {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#players span{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#players a:not(:last-of-type) {
+    border-bottom: solid black 0.25rem;
+}
+
+#players span:not(:last-of-type) {
+    border-bottom: solid black 0.25rem;
+}
+
+div#next {
+    bottom: 8.5rem;
+    right: 0.25rem;
+    position: absolute;
+}
+
+#next img {
+    max-width: 100%;
+    height: 3.5rem;
+}
+
+div#previous {
+    bottom: 8.5rem;
+    left: 0.25rem;
+    position: absolute;
+}
+
+#previous img {
+    max-width: 100%;
+    height: 3.5rem;
+}
+
+/*General tile style*/
+.tile {
+    font-size: 2rem;
+    border: 0.25rem black solid;
+    width: 17.5%;
+    height: 100%;
+    text-align: center;
+    line-height: 4rem;
+    background-color: #cde6d0;
+}
+
+div#tiles{
+    margin-top: 1rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+div#tiles div{
+   margin-right: -0.25rem;
+    border-right: black solid 0.25rem;
+}
+
+/*tile visible or hidden*/
+.tile.hide {
+    display: none;
+}
+
+/*road tiles*/
+.tile.road h2 {
+    margin-bottom: 7rem;
+}
+
+.tile.road div {
+    border-bottom: 0.25rem solid black;
+}
+
+/*current tile*/
+.tile.current {
+    height: 130%;
+}
+
+.tile.current p:first-of-type{
+    font-size: 2rem;
+}
+
+/*corner tiles*/
+.tile.go {
+    background-image: url("../../images/go-arrow.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 70%;
+}
+
+.tile.prison {
+    background-image: url("../../images/prison.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    justify-content: center;
+    align-items: end;
+}
+
+.tile.parking {
+    background-image: url("../../images/free-parking.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tile.go-to-prison {
+    background-image: url("../../images/go-to-prison.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tile.go-to-prison h2 {
+    margin-bottom: 11rem;
+}
+
+/*community tiles*/
+.tile.community {
+    background-image: url("../../images/community-chest.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+/*super tax tile*/
+.tile.super-tax {
+    background-image: url("../../images/super-tax.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tile.super-tax h2 {
+    margin-bottom: 11rem;
+}
+
+/*income tax tile*/
+.tile.income-tax {
+    background-image: url("../../images/income-tax.jpg");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tile.income-tax h2 {
+    margin-bottom: 11rem;
+}
+
+/*water works*/
+.tile.water-works {
+    background-image: url("../../images/water-works.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tile.water-works h2 {
+    margin-bottom: 11rem;
+}
+
+/*stations*/
+.tile.station {
+    background-image: url("../../images/station.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tile.station h2 {
+    margin-bottom: 11rem;
+}
+
+/*chance tile*/
+.tile.chance {
+    background-image: url("../../images/chance.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*electric company*/
+.tile.electric-company {
+    background-image: url("../../images/Electric-Company.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tile.electric-company h2 {
+    margin-bottom: 11rem;
+}
+
+/*card coloring*/
+.tile.purple div {
+    background-color: purple;
+    padding: 2rem;
+}
+.tile.lightblue div {
+    background-color: lightblue;
+    padding: 2rem;
+}
+.tile.violet div {
+    background-color: violet;
+    padding: 2rem;
+}
+.tile.orange div {
+    background-color: orange;
+    padding: 2rem;
+}
+.tile.red div {
+    background-color: red;
+    padding: 2rem;
+}
+.tile.yellow div {
+    background-color: yellow;
+    padding: 2rem;
+}
+.tile.darkgreen div {
+    background-color: darkgreen;
+    padding: 2rem;
+}
+
+.tile.darkblue div {
+    background-color: darkblue;
+    padding: 2rem;
+}
+
+/* background (is tijdelijk, degene die de classes gaat regelen kan dit gebruiken om elke body dat een achtergrond nodig heeft deze class te geven */
+.background {
+    background-image: url("../../images/monopoly-city.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+/* start game */
+
+.startpage #Press-To-Start h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 auto 0.3rem auto ;
+    opacity: 0.7;
+}
+
+.startpage footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:5rem;   /* Height of the footer */
+
+}
+
+.startpage ul#Rules {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.125rem;
+    background-color: black;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width:6rem;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+}
+
+.startpage li#FAQ {
+    margin-top: 0.25rem;
+}
+
+.startpage {
+
+    background-image: url("../../images/monopoly-city.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+
+main.startpage {
+    text-align: center;
+    background-image: url("../../images/monopoly-city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 34rem;
+}
+
+.startpage li a {
+    color: white;
+}
+
+/* pawn selection */
+
+.pawn-selection img {
+    height: 6rem;
+    width: 6rem;
+    margin: 0.5rem;
+}
+
+
+.pawn-selection main {
+    border: 0.125rem black solid;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+    background-color: beige;
+}
+
+.pawn-selection header {
+    margin: 15rem auto 1rem auto;
+    border: 0.125rem black solid;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.pawn-selection header h1{
+    font-size: 2rem;
+}
+
+.pawn-selection footer{
+    border: 0.125rem black solid;
+    display: flex;
+    justify-content: center;
+    margin: 15rem auto 0 auto;
+    width: 5%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.pawn-selection a {
+    color: white;
+}
+/* joinOrCreateRoom */
+
+main.joinOrCreateRoom{
+    background-image: url("../../images/monopoly-city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4.65rem;
+}
+
+ .joinOrCreateRoom{
+
+     display: grid;
+     grid-template-columns: auto auto auto;
+}
+
+.joinOrCreateRoom h2 {
+    background-color: deepskyblue;
+    font-size: 3rem;
+    padding: 5%;
+    grid-column: 1/4;
+    border: black 0.125rem solid;
+    border-radius: 0.5rem;
+}
+.joinOrCreateRoom section {
+    height: 35rem;
+    width:90%;
+    border: 0.075rem solid black;
+    border-radius: 0.5rem;
+    margin-top: 10%;
+    margin-left:10%;
+    overflow-y:scroll;
+    background-color:beige;
+    grid-column: 1/3;
+}
+
+.joinOrCreateRoom section div {
+    border: 0.075rem solid black;
+    height: 25%;
+    margin: 0.25rem;
+    background-color: lightskyblue;
+    color:black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.joinOrCreateRoom section div h3{
+    font-size: 1rem;
+    color: black;
+    margin:0.75rem;
+}
+
+.joinOrCreateRoom section div span{
+     text-align: right;
+     margin-right: 2rem;
+     margin-top: 1rem;
+ }
+
+ .joinOrCreateRoom section  div p{
+     font-size: 1rem;
+     color: green;
+     margin-top:2.25rem;
+     margin-left: 0.75rem;
+ }
+ .joinOrCreateRoom section div button{
+     margin-top:2rem;
+     margin-left:55%;
+     margin-bottom: 0.5rem;
+ }
+ .joinOrCreateRoom aside{
+     margin-top: 13%;
+     margin-left:3rem;
+ }
+
+ .joinOrCreateRoom aside button{
+     display:block;
+     margin-top: 30%;
+     margin-left: 8%;
+     padding: 3rem;
+ }
+
+
+/* ownerlobby */
+
+main.ownerLobby {
+    width:50%;
+    margin-left: auto;
+    margin-right:auto;
+    display: grid;
+    height:60%;
+    grid-template-columns: auto auto;
+    row-gap: 2rem;
+    margin-top: 10%;
+}
+main.ownerLobby div{
+    border-radius: 0.5rem;
+    border:0.125rem solid black;
+    background-color:green;
+    margin-left: auto;
+    margin-right:auto;
+    height: 4.5rem;
+    width: 20rem;
+    text-align: center;
+
+}
+main.ownerLobby div.lobbyJoined{
+    background-color:blue;
+}
+main.ownerLobby div.lobbyEmpty{
+    background-color:grey;
+}
+
+main.ownerLobby h3{
+    grid-column: 1/3;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 3rem;
+
+}
+aside.ownerLobbyButton button{
+    margin-top:1.5rem;
+    margin-left: 44%;
+    padding:1.5rem 3rem;
+
+}
+
+/* RULE PAGE */
+
+.Rule-Page {
+    background-color: beige;
+}
+
+.Rule-Page h2 {
+    font-size: 6rem;
+    text-align: center;
+    border-bottom: 0.125rem black solid;
+    width: 50%;
+    margin: 0 auto 1rem auto;
+    border-left: 0.125rem black solid;
+    border-right: 0.125rem black solid;
+}
+
+.Rule-Page h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.Rule-Page p {
+    text-align: center;
+}
+
+.Rule-Page h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+}
+
+.Rule-Page h4 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.Rule-Page p a {
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 1.2rem;
+}
+
+.Back-To-start {
+    margin-top: 1rem;
+}
+
+.Rule-Page div {
+    display: flex;
+    justify-content: center;
+}
+
+.Rule-Page div a {
+    background-color: lightpink;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: black;
+    text-decoration: none;
+    border: 0.125rem black solid;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* playerSelect */
+
+.players {
+    padding: 1.5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#Button-Surround {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2rem;
+    border: 0.125rem black solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35rem;
+}
+
+.players-select h1  {
+    font-size: 2.5rem;
+    width: 30rem;
+    border: 0.2rem black solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 14rem;
+}
+
+.players-select footer p {
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+    font-weight: bold;
+    border: 0.125rem black solid;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.players-select footer p a {
+    color: white;
+}
+
+/* FAQ */
+
+.faq h2 {
+    font-size: 6rem;
+    text-align: center;
+    border: 0.125rem black solid;
+    width: 20%;
+    margin: auto auto;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.faq h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.faq p {
+    text-align: center;
+}
+
+.faq div {
+    border: 0.125rem black solid;
+    width: 50%;
+    margin: 1rem auto 0 auto;
+    background-color: lightpink;
+}
+
+main.faq {
+    background-color: beige;
+    padding-bottom: 3.5rem;
+}
+
+.faq p a {
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 1.2rem;
+}
+
+/*buy-property*/
+
+.houses h1 {
+    font-size: 3rem;
+    border: 0.25rem black solid;
+    width: 15%;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+}
+
+#buy-houses {
+    display: grid;
+    grid-template-columns: 30rem auto 30rem;
+    grid-template-rows: 4rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#buy-houses div {
+    background-image: url("../../images/back-arrow.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position-y: 50%;
+    border: solid 0.25rem black;
+    width: 60%;
+    margin: auto auto;
+}
+
+#buy-houses h4 {
+    margin-top: 4rem;
+    grid-column: 1/4;
+}
+
+.houses h2:first-of-type {
+    align-self: end;
+}
+
+.houses h2:last-of-type {
+    align-self: end;
+}
+
+
+div.scrollbar {
+    width: 80%;
+    height: 50%;
+    overflow: auto;
+    white-space: nowrap;
+    font-size: 1.25rem;
+    background-color: grey;
+    border-top: 0.1rem solid black;
+    border-right: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+}
+
+
+.scrollbar div {
+    background-color: lightgray;
+    width: 10.5rem;
+    height: 12.5rem;
+    border-left: 0.2rem solid black;
+    border-right: 0.2rem solid black;
+    display: inline-block;
+}
+
+.scrollbar div p {
+    margin-top: 3rem;
+    white-space: normal;
+}
+.scrollbar div {
+    background-image: url("../../images/info.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 20%;
+    background-position-y: 20%;
+}
+
+
+#scrolls {
+    display: flex;
+    flex-flow: wrap row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#scrolls label {
+    display: flex;
+    margin: 3rem auto 1rem auto;
+    justify-content: center;
+}
+
+#scrolls input {
+    width: auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#scrolls h2 {
+    font-size: 2rem;
+}
+
+footer h4 {
+    margin: auto 27.5%;
+    font-size: 3rem;
+}
+
+
+.scrollbar div h4 {
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.scrollbar div .BLACK {
+    background-color: black;
+    color: white;
+}
+
+.scrollbar div .PURPLE {
+    background-color: purple;
+}
+
+.scrollbar div .LIGHTBLUE {
+    background-color: lightblue;
+}
+
+.scrollbar div .VIOLET {
+    background-color: violet;
+}
+
+.scrollbar div .ORANGE {
+    background-color: orange;
+}
+
+.scrollbar div .RED {
+    background-color: red;
+}
+
+.scrollbar div .YELLOW {
+    background-color: yellow;
+}
+
+.scrollbar div .DARKGREEN {
+    background-color: green;
+}
+
+.scrollbar div .DARKBLUE {
+    background-color: darkblue;
+    color: white;
+}
+
+.scrollbar div button{
+    width:auto;
+}
+
+main form{
+
+    background-color: rgb(245,245,220);
+    display: grid;
+    width: 50%;
+    border: solid black 0.125rem;
+    margin:auto auto;
+
+}
+main form input{
+    width:50%;
+    margin:auto auto;
+}
+main form select{
+    width:50%;
+    margin:auto auto;
+}
+main form select + input{
+    width:30%;
+}
+
+h1.yourTurn{
+    background-color: green;
+}
+
+h1.notYourTurn{
+    background-color: red;
+}
+
+
+p.yourTurn{
+    color: green;
+}
+
+p.notYourTurn{
+    color: red;
+}
+
+#buy-houses h4 {
+    margin-top: 4rem;
+    grid-column: 1/4;
+}
+#scrolls>h4{
+font-size:2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
